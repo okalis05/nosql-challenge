@@ -1,6 +1,6 @@
 # nosql-challenge
 ---
-**This challenge is divided into 2 parts**
+**This challenge is divided into 3 parts**
 
 ## Part 1: Database and Jupyter Notebook Set Up
 ---

@@ -1,10 +1,10 @@
 # nosql-challenge
-MODULE12 Assignment
+---
+**This challenge is divided into 2 parts**
 
-# ===================Part 1: Database and Jupyter Notebook Set Up====================
-
-For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the following tasks:
-# --------------------------------------------------------------------------------------
+## Part 1: Database and Jupyter Notebook Set Up
+---
+**For this section, we have used NoSQL_setup_starter.ipynb to accomplish the following tasks:**
 
 -Import the data provided in the establishments.json file from your Terminal.
 -Name the database uk_food and the collection establishments. 
@@ -17,10 +17,10 @@ For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the followin
 -Find and display one document in the establishments collection using find_one and display with pprint.
 -Assign the establishments collection to a variable to prepare the collection for use.
 
-# =========================== Part 2: Update the Database================================
+### Part 2: Update the Database
+---
+**For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the following tasks:**
 
-For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the following tasks:
-# ----------------------------------------------------------------------------------------
 -Add additional information to the database.
 -Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 -Update the new restaurant with the BusinessTypeID you found.
@@ -28,10 +28,10 @@ For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the followin
 -Use update_many to convert latitude and longitude to decimal numbers.
 -Use update_many to convert RatingValue to integer numbers.
 
-# =============================Part 3: Exploratory Analysis================================
+### Part 3: Exploratory Analysis
+---
+**For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the following tasks:**
 
-For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the following tasks:
-# ------------------------------------------------------------------------------------------
 -Use NoSQL_analysis_starter.ipynb for this section of the challenge.
 -Use the following questions to explore the database, and find the answers, so we can provide them to the magazine editors.
 -Use count_documents to display the number of documents contained in the result.unless otherwise stated.
@@ -44,4 +44,4 @@ For this section, we'll use NoSQL_setup_starter.ipynb to accomplish the followin
 score, nearest to the new restaurant added, "Penang Flavours"?
   *How many establishments in each Local Authority area have a hygiene score of 0? Sort the
 results from highest to lowest, and print out the top ten local authority areas.
-# =========================================================================================
+---
